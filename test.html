@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .text-container {
+        position: relative;
+    }
+
+    .wrapped-image {
+        float: left;
+        /* or right, depending on your layout */
+        shape-outside: circle();
+        /* You can use other shapes like inset(), ellipse(), etc. */
+        width: 200px;
+        /* Adjust as needed */
+        height: auto;
+        margin: 10px;
+        /* Adjust as needed to add space around the image */
+    }
+</style>
+
+<body>
+    <div class="text-container">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+            <img src="images/clock_icon.png" alt="Descriptive Alt Text" class="wrapped-image">
+            Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+            Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+        </p>
+    </div>
+
+</body>
+
+</html>
