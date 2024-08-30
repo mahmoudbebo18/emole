@@ -104,13 +104,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function updateInputStyles() {
     otpInputs.forEach(input => {
-        if (input.value.length > 0) {
-            input.classList.add('filled');
-        } else {
-            input.classList.remove('filled');
-        }
+      if (input.value.length > 0) {
+        input.classList.add('filled');
+      } else {
+        input.classList.remove('filled');
+      }
     });
-}
+  }
 
   if (otpInputs) {
     otpInputs.forEach((input, index) => {
@@ -127,6 +127,32 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     focusFirstInput();
   }
-
 });
 
+
+
+$(document).ready(function () {
+  let openRegisterModal = $('#openRegisterModal');
+  let openMobileModal = $('#openMobileModal');
+  let openEmailModal = $('#openEmailModal');
+  if (openRegisterModal) {
+    openRegisterModal.on('click', function () {
+      $('#loginEmailModal').modal('hide');
+      $('#loginInfoModal').modal('show');
+    });
+  }
+  if (openMobileModal) {
+    openMobileModal.on('click', function () {
+      $('#loginEmailModal').modal('hide');
+      $('#signUpModal').modal('show');
+    });
+  }
+  if (openEmailModal) {
+    openEmailModal.on('click', function () {
+      $('#signUpModal').modal('hide');
+      $('#loginEmailModal').modal('show');
+    });
+  }
+
+
+});

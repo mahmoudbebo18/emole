@@ -424,6 +424,7 @@ footer {
         gap: 12px;
         margin-bottom: 48px;
         flex-wrap: wrap;
+        border: none;
 
         @media (max-width: 1300px) {
             justify-content: flex-start !important;
@@ -433,25 +434,34 @@ footer {
             flex-direction: column;
         }
 
-        a {
-            text-decoration: none;
-            display: inline-flex;
-            padding: 18px 25px;
-            border-radius: 8px;
-            background-color: #d7d7d7;
-            font-family: $cairo_medium;
-            color: #3b3d3e;
-            flex-shrink: 0;
+        .nav-item {
+            margin: 0;
 
             @media (max-width: 575px) {
                 width: 100%;
             }
 
-            &.active {
-                background-color: #1da6d6;
-                color: #fff;
+            a {
+                text-decoration: none;
+                display: inline-flex;
+                padding: 18px 25px;
+                border-radius: 8px;
+                background-color: #d7d7d7;
+                font-family: $cairo_medium;
+                color: #3b3d3e;
+                flex-shrink: 0;
+
+                @media (max-width: 575px) {
+                    width: 100%;
+                }
+
+                &.active {
+                    background-color: #1da6d6;
+                    color: #fff;
+                }
             }
         }
+
     }
 }
 
@@ -1523,6 +1533,24 @@ footer {
     }
 }
 
+
+/*login email modal */
+
+#loginEmailModal {
+    .modal-footer {
+        flex-direction: column;
+        gap: 16px;
+
+        h6 {
+            color: #1DA6D6;
+            font-family: $cairo_semibold;
+        }
+    }
+}
+
+
+/*otp modal */
+
 .OTPModal.modal {
     .modal-dialog {
         max-width: 480px;
@@ -1580,17 +1608,28 @@ footer {
                 margin-top: 30px;
             }
         }
+
         .modal-footer {
-            padding:0;
+            padding: 0;
             border: none;
             margin-top: 30px;
             font-size: 14px;
-            .resend{
+            flex-direction: column;
+            gap: 16px;
+
+            h6 {
+                color: #1DA6D6;
+                font-family: $cairo_semibold;
+            }
+
+            .resend {
                 font-family: $cairo_medium;
-                #timer{
+
+                #timer {
                     color: #000;
                 }
-                #resendOtp{
+
+                #resendOtp {
                     color: #7A7A7A;
                     background-color: transparent;
                     border: none;
@@ -1598,9 +1637,10 @@ footer {
                     padding: 0;
                     margin: 0;
                 }
-               
+
             }
-            #changePhone{
+
+            #changePhone {
                 background-color: transparent;
                 border: none;
                 outline: none;
@@ -1614,27 +1654,32 @@ footer {
 }
 
 
-.signupmodal{
-    .form-group{
+.signupmodal {
+    .form-group {
         margin: 0;
-        label{
+
+        label {
             font-size: 12px;
             margin-bottom: 5px;
             color: #000;
         }
-        input,select{
+
+        input,
+        select {
             height: 48px;
-            border:none;
+            border: none;
             font-family: $LamaRounded-Regular;
             outline: none;
         }
-        input{
+
+        input {
             background-color: #F9FAFA;
-            border-radius: 0 6px 6px 0 ;
+            border-radius: 0 6px 6px 0;
             box-shadow: none !important;
-            padding: 0  0 0 16px  ;
+            padding: 0 0 0 16px;
         }
-        select{
+
+        select {
             border-radius: 6px 0 0 6px;
             background-color: #E6E9EA !important;
             color: #000 !important;
@@ -1648,28 +1693,33 @@ footer {
         }
     }
 
-    .terms{
+    .terms {
         font-family: $cairo_medium;
         gap: 11px;
         margin-top: 30px;
-        input{
+
+        input {
             width: 24px;
             height: 24px;
         }
-        span{
+
+        span {
             color: #000;
-            a{
+
+            a {
                 color: #1DA6D6;
                 text-decoration: none;
             }
         }
     }
-    .modal-footer{
+
+    .modal-footer {
         font-family: $cairo_medium;
         color: #000;
-        justify-content: center !important; 
+        justify-content: center !important;
         gap: 3px;
-        span{
+
+        span {
             color: #1DA6D6;
         }
     }

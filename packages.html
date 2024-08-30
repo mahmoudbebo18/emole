@@ -46,7 +46,7 @@
             </ul>
             <div class="action">
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginInfoModal">
-                    أنشئ متجرك الأن
+                   تسجيل الدخول 
                 </button>
             </div>
 
@@ -56,120 +56,868 @@
     <section class="packages py-5">
         <div class="container-fluid">
             <h1 class="text-center"> مقارنة باقات إيمول </h1>
-            <div class="tabs d-flex align-items-center justify-content-between">
-                <a class="active" href="#"> إدارة المتجر </a>
-                <a href="#"> طرق الدفع </a>
-                <a href="#"> الشحن والتوصيل </a>
-                <a href="#"> أدوات التسويق </a>
-                <a href="#"> التحليـــــــــــــــلات </a>
-                <a href="#">التحليـــــــــــــــلات </a>
-                <a href="#">برنامــج الولاء </a>
-                <a href="#"> سوق التطبيقات </a>
+            <ul class="tabs nav nav-tabs  d-flex align-items-center justify-content-between" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#tab_1"> إدارة المتجر </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab_2">  طرق الدفع  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab_3">   الشحن والتوصيل    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab_4">   أدوات التسويق    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab_5"> التحليـــــــــــــــلات    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab_6"> التحليـــــــــــــــلات    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab_7">  برنامــج الولاء     </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab_8">   سوق التطبيقات     </a>
+                </li>
+                
+            </ul>
+            <div class="tab-content">
+                <div id="tab_1" class="packages_table table-responsive-lg tab-pane active">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="align-middle text-center first_th"> نـــــوع البـــاقــه </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/free_pack.svg" alt="free_pack" />
+                                    <p> باقة مجانية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/eco_pack.svg" alt="free_pack" />
+                                    <p> الباقة الاقتصادية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/markting_pack.svg" alt="free_pack" />
+                                    <p> الباقة التسويقية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/commercial_pack.svg" alt="free_pack" />
+                                    <p> الباقة التجارية </p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لامحدود من المنتجات</th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من العملاء </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الأقسام </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لا محدود من العلامات التجارية(البراند) </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الطلبات </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عربات التسوق المهجورة </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> العروض والتخفيضات </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> جميع خدمات جوجل والفيس بوك </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول كارسولز </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول سلايدر </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> Google Analytics 4G With Events Handle </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="tab_2" class="packages_table table-responsive-lg tab-pane">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="align-middle text-center first_th">  نـــــوع البـــاقــه  2</th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/free_pack.svg" alt="free_pack" />
+                                    <p> باقة مجانية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/eco_pack.svg" alt="free_pack" />
+                                    <p> الباقة الاقتصادية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/markting_pack.svg" alt="free_pack" />
+                                    <p> الباقة التسويقية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/commercial_pack.svg" alt="free_pack" />
+                                    <p> الباقة التجارية </p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لامحدود من المنتجات</th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من العملاء </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الأقسام </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لا محدود من العلامات التجارية(البراند) </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الطلبات </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عربات التسوق المهجورة </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> العروض والتخفيضات </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> جميع خدمات جوجل والفيس بوك </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول كارسولز </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول سلايدر </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> Google Analytics 4G With Events Handle </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="tab_3" class="packages_table table-responsive-lg tab-pane">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="align-middle text-center first_th">  نـــــوع البـــاقــه  3</th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/free_pack.svg" alt="free_pack" />
+                                    <p> باقة مجانية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/eco_pack.svg" alt="free_pack" />
+                                    <p> الباقة الاقتصادية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/markting_pack.svg" alt="free_pack" />
+                                    <p> الباقة التسويقية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/commercial_pack.svg" alt="free_pack" />
+                                    <p> الباقة التجارية </p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لامحدود من المنتجات</th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من العملاء </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الأقسام </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لا محدود من العلامات التجارية(البراند) </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الطلبات </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عربات التسوق المهجورة </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> العروض والتخفيضات </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> جميع خدمات جوجل والفيس بوك </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول كارسولز </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول سلايدر </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> Google Analytics 4G With Events Handle </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="tab_4" class="packages_table table-responsive-lg tab-pane">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="align-middle text-center first_th">  نـــــوع البـــاقــه  4</th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/free_pack.svg" alt="free_pack" />
+                                    <p> باقة مجانية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/eco_pack.svg" alt="free_pack" />
+                                    <p> الباقة الاقتصادية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/markting_pack.svg" alt="free_pack" />
+                                    <p> الباقة التسويقية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/commercial_pack.svg" alt="free_pack" />
+                                    <p> الباقة التجارية </p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لامحدود من المنتجات</th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من العملاء </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الأقسام </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لا محدود من العلامات التجارية(البراند) </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الطلبات </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عربات التسوق المهجورة </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> العروض والتخفيضات </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> جميع خدمات جوجل والفيس بوك </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول كارسولز </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول سلايدر </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> Google Analytics 4G With Events Handle </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="tab_5" class="packages_table table-responsive-lg tab-pane">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="align-middle text-center first_th">  نـــــوع البـــاقــه  5 </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/free_pack.svg" alt="free_pack" />
+                                    <p> باقة مجانية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/eco_pack.svg" alt="free_pack" />
+                                    <p> الباقة الاقتصادية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/markting_pack.svg" alt="free_pack" />
+                                    <p> الباقة التسويقية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/commercial_pack.svg" alt="free_pack" />
+                                    <p> الباقة التجارية </p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لامحدود من المنتجات</th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من العملاء </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الأقسام </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لا محدود من العلامات التجارية(البراند) </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الطلبات </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عربات التسوق المهجورة </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> العروض والتخفيضات </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> جميع خدمات جوجل والفيس بوك </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول كارسولز </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول سلايدر </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> Google Analytics 4G With Events Handle </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="tab_6" class="packages_table table-responsive-lg tab-pane">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="align-middle text-center first_th">  نـــــوع البـــاقــه    6</th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/free_pack.svg" alt="free_pack" />
+                                    <p> باقة مجانية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/eco_pack.svg" alt="free_pack" />
+                                    <p> الباقة الاقتصادية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/markting_pack.svg" alt="free_pack" />
+                                    <p> الباقة التسويقية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/commercial_pack.svg" alt="free_pack" />
+                                    <p> الباقة التجارية </p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لامحدود من المنتجات</th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من العملاء </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الأقسام </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لا محدود من العلامات التجارية(البراند) </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الطلبات </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عربات التسوق المهجورة </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> العروض والتخفيضات </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> جميع خدمات جوجل والفيس بوك </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول كارسولز </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول سلايدر </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> Google Analytics 4G With Events Handle </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="tab_7" class="packages_table table-responsive-lg tab-pane">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="align-middle text-center first_th">  نـــــوع البـــاقــه  7  </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/free_pack.svg" alt="free_pack" />
+                                    <p> باقة مجانية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/eco_pack.svg" alt="free_pack" />
+                                    <p> الباقة الاقتصادية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/markting_pack.svg" alt="free_pack" />
+                                    <p> الباقة التسويقية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/commercial_pack.svg" alt="free_pack" />
+                                    <p> الباقة التجارية </p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لامحدود من المنتجات</th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من العملاء </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الأقسام </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لا محدود من العلامات التجارية(البراند) </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الطلبات </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عربات التسوق المهجورة </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> العروض والتخفيضات </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> جميع خدمات جوجل والفيس بوك </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول كارسولز </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول سلايدر </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> Google Analytics 4G With Events Handle </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="tab_8" class="packages_table table-responsive-lg tab-pane">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="align-middle text-center first_th">  نـــــوع البـــاقــه 8 </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/free_pack.svg" alt="free_pack" />
+                                    <p> باقة مجانية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/eco_pack.svg" alt="free_pack" />
+                                    <p> الباقة الاقتصادية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/markting_pack.svg" alt="free_pack" />
+                                    <p> الباقة التسويقية </p>
+                                </th>
+                                <th scope="col" class="align-middle text-center">
+                                    <img src="images/commercial_pack.svg" alt="free_pack" />
+                                    <p> الباقة التجارية </p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لامحدود من المنتجات</th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من العملاء </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الأقسام </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle">عدد لا محدود من العلامات التجارية(البراند) </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عدد لا محدود من الطلبات </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> عربات التسوق المهجورة </th>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> العروض والتخفيضات </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> جميع خدمات جوجل والفيس بوك </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول كارسولز </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> خدمة ايمول سلايدر </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="align-middle"> Google Analytics 4G With Events Handle </th>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                                <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <div class="packages_table table-responsive-lg">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col" class="align-middle text-center first_th"> نـــــوع البـــاقــه </th>
-                            <th scope="col" class="align-middle text-center">
-                                <img src="images/free_pack.svg" alt="free_pack" />
-                                <p> باقة مجانية </p>
-                            </th>
-                            <th scope="col" class="align-middle text-center">
-                                <img src="images/eco_pack.svg" alt="free_pack" />
-                                <p> الباقة الاقتصادية </p>
-                            </th>
-                            <th scope="col" class="align-middle text-center">
-                                <img src="images/markting_pack.svg" alt="free_pack" />
-                                <p> الباقة التسويقية </p>
-                            </th>
-                            <th scope="col" class="align-middle text-center">
-                                <img src="images/commercial_pack.svg" alt="free_pack" />
-                                <p> الباقة التجارية </p>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row" class="align-middle">عدد لامحدود من المنتجات</th>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="align-middle"> عدد لا محدود من العملاء </th>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="align-middle"> عدد لا محدود من الأقسام </th>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="align-middle">عدد لا محدود من العلامات التجارية(البراند) </th>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="align-middle"> عدد لا محدود من الطلبات </th>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="align-middle"> عربات التسوق المهجورة </th>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="align-middle"> العروض والتخفيضات </th>
-                            <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="align-middle"> جميع خدمات جوجل والفيس بوك </th>
-                            <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="align-middle"> خدمة ايمول كارسولز </th>
-                            <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="align-middle"> خدمة ايمول سلايدر </th>
-                            <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="align-middle"> Google Analytics 4G With Events Handle </th>
-                            <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/x_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                            <td class="text-center"> <img src="images/check_mark.svg" alt="check_mark"> </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            
         </div>
     </section>
 
@@ -631,16 +1379,17 @@
                             <h3 class="text-center"> تفاصيل الدفع </h3>
                             <div class="details">
                                 <div class="wrapper d-flex align-items-center justify-content-between">
-                                    <h5 > نوع الباقه </h5>
-                                    <p class="main_p d-flex align-items-center"> <img src="images/pack.svg" alt=""> <span> الباقة التجارية </span>  </p>
+                                    <h5> نوع الباقه </h5>
+                                    <p class="main_p d-flex align-items-center"> <img src="images/pack.svg" alt="">
+                                        <span> الباقة التجارية </span> </p>
                                 </div>
                                 <div class="wrapper d-flex align-items-center justify-content-between">
-                                    <h5> السعر الحالي  </h5>
-                                    <p> 400.00 ر.س</span>  </p>
+                                    <h5> السعر الحالي </h5>
+                                    <p> 400.00 ر.س</span> </p>
                                 </div>
                                 <div class="wrapper d-flex align-items-center justify-content-between">
-                                    <h5> الضريبة  ( 15 % )</h5>
-                                    <p> 60.00 ر.س</span>  </p>
+                                    <h5> الضريبة ( 15 % )</h5>
+                                    <p> 60.00 ر.س</span> </p>
                                 </div>
                             </div>
                         </div>
@@ -655,7 +1404,7 @@
                                     <p> -46.00 ر.س </p>
                                 </div>
                                 <div class="wrapper total d-flex align-items-center justify-content-between">
-                                    <h5> الاجمالي النهائي  </h5>
+                                    <h5> الاجمالي النهائي </h5>
                                     <p> 414 ر.س </p>
                                 </div>
                             </div>

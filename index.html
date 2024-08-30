@@ -48,8 +48,8 @@
                 </li>
             </ul>
             <div class="action">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginInfoModal">
-                    أنشئ متجرك الأن
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginEmailModal">
+                    تسجيل الدخول
                 </button>
             </div>
 
@@ -64,7 +64,7 @@
                 أنشئ متجرك الإلكتروني في دقائق، واربط منتجاتك بمجموعة متكاملة من الحلول الرقميَّة
                 الذكيَّة للمدفوعات، والشحن، وإدارة المخزون، والتسويق، بكل سهولة, لأن نجاحك لا يحتاج إلى تعقيد.
             </p>
-            <a data-toggle="modal" data-target="#signUpModal" href="#"> أنشئ متجرك الأن وإبدء تجارتك مع Emole </a>
+            <a data-toggle="modal" data-target="#loginInfoModal" href="#"> أنشئ متجرك الأن وإبدء تجارتك مع Emole </a>
         </div>
     </section>
     <section class="home-content security">
@@ -1431,13 +1431,61 @@
                     <button id="submitOtp" class="submit-button"> تسجيــــل الدخول </button>
                 </div>
                 <div class="modal-footer d-flex align-items-center justify-content-between">
-                    ليس لديك حساب 
-                    ؟  
-                <span>  انشاء حساب جديد </span>
+                    <h6 id="openEmailModal"> التسجيل بالبريد الالكتروني </h6>
+                    <div>
+                        ليس لديك حساب
+                        ؟
+                        <span> انشاء حساب جديد </span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <!--  login with email  -->
+    <div class="modal OTPModal signupmodal fade" id="loginEmailModal" tabindex="-1"
+        aria-labelledby="loginEmailModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="images/close.svg" alt="close" />
+                    </button>
+                    <h2>تسجيل الدخول </h2>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="email" class="form-label"> البريد الالكتروني </label>
+                        <input type="email" class="form-control p-0 pl-2 pr-2" id="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label"> كلمة المرور </label>
+                        <input type="password" class="form-control p-0 pl-2 pr-2" id="password" />
+                    </div>
+                    <div class="terms d-flex align-items-center">
+                        <input type="radio" />
+                        <span> أوفق علي
+                            <a href="#"> الشروط والأحكام </a>
+                        </span>
+                    </div>
+                    <button id="submitOtp" class="submit-button"> تسجيــــل الدخول </button>
+                </div>
+                <div class="modal-footer d-flex align-items-center justify-content-between">
+                    <h6 id="openMobileModal"> التسجيل برقم الجوال </h6>
+                    <div>
+                        ليس لديك حساب
+                        ؟
+                        <span id="openRegisterModal"> انشاء حساب جديد </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
