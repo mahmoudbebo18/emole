@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> الرئيسية </title>
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,7 +22,14 @@
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span><svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#1b6681" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+            </svg>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -46,13 +56,15 @@
         </div>
     </nav>
     <section class="hero">
+
+        <img class="hero_bg" src="images/hero.png" alt="hero" />
         <div class="content">
             <h1> منصة ايمول وجهتك الأولى لعالم التجارة الالكترونية </h1>
             <p>
                 أنشئ متجرك الإلكتروني في دقائق، واربط منتجاتك بمجموعة متكاملة من الحلول الرقميَّة
                 الذكيَّة للمدفوعات، والشحن، وإدارة المخزون، والتسويق، بكل سهولة, لأن نجاحك لا يحتاج إلى تعقيد.
             </p>
-            <a href="#"> أنشئ متجرك الأن وإبدء تجارتك مع Emole </a>
+            <a data-toggle="modal" data-target="#signUpModal" href="#"> أنشئ متجرك الأن وإبدء تجارتك مع Emole </a>
         </div>
     </section>
     <section class="home-content security">
@@ -312,17 +324,18 @@
                             </span>
                         </li>
                         <li>
-                            <strong> إعداد سريع:  </strong>
+                            <strong> إعداد سريع: </strong>
                             <span>أضف وأدر متاجر متعددة بسرعة دون تعقيد.
                             </span>
                         </li>
                         <li>
                             <strong> تحكم شامل: </strong>
-                            <span>  إدارة شاملة للمنتجات، والمخزون، والطلبات، والعملاء لكل متجر.</span>
+                            <span> إدارة شاملة للمنتجات، والمخزون، والطلبات، والعملاء لكل متجر.</span>
                         </li>
                         <li>
-                            <strong> تحليل الأداء:  </strong>
-                            <span>  احصل على تقارير مفصلة عن أداء كل متجر على حدة لمساعدتك في اتخاذ القرارات الصحيحة. </span>
+                            <strong> تحليل الأداء: </strong>
+                            <span> احصل على تقارير مفصلة عن أداء كل متجر على حدة لمساعدتك في اتخاذ القرارات الصحيحة.
+                            </span>
                         </li>
                         <li>
                             <strong> تكامل كامل: </strong>
@@ -355,24 +368,26 @@
 
                     <ul>
                         <li>
-                            <strong>  رابط خاص ولوحة تحكم مستقلة: 
+                            <strong> رابط خاص ولوحة تحكم مستقلة:
                             </strong>
-                            <span> يمنحك Emole رابطًا خاصًا ولوحة تحكم مستقلة لكل متجر، مما يضمن الخصوصية والتحكم الكامل في إدارة متجرك.</span>
+                            <span> يمنحك Emole رابطًا خاصًا ولوحة تحكم مستقلة لكل متجر، مما يضمن الخصوصية والتحكم الكامل
+                                في إدارة متجرك.</span>
                         </li>
                         <li>
-                            <strong> تكامل مع سيرفرات الكلاود:  </strong>
-                            <span>    يمكنك ربط متجرك بسهولة بأحد سيرفرات الكلاود مثل Cloudflare لتعزيز الأداء والسرعة.
+                            <strong> تكامل مع سيرفرات الكلاود: </strong>
+                            <span> يمكنك ربط متجرك بسهولة بأحد سيرفرات الكلاود مثل Cloudflare لتعزيز الأداء والسرعة.
                             </span>
                         </li>
                         <li>
-                            <strong> تحكم في أداء متجرك:  </strong>
+                            <strong> تحكم في أداء متجرك: </strong>
                             <span> قم بإدارة وتحسين أداء متجرك الإلكتروني بفضل التكامل السلس مع الخدمات السحابية.</span>
                         </li>
                         <li>
-                            <strong> حقول مخصصة:   </strong>
-                            <span> صمم واجهة متجرك بما يتناسب مع احتياجاتك الخاصة عن طريق تخصيص الحقول وفقًا لمتطلبات عملك. </span>
+                            <strong> حقول مخصصة: </strong>
+                            <span> صمم واجهة متجرك بما يتناسب مع احتياجاتك الخاصة عن طريق تخصيص الحقول وفقًا لمتطلبات
+                                عملك. </span>
                         </li>
-                        
+
 
                     </ul>
 
@@ -386,6 +401,449 @@
         </div>
     </section>
 
+    <section class="home_packages">
+        <h2> الباقات والخطط السعرية </h2>
+
+        <div class="step packages_wrapper_div">
+            <div class="packages_content d-flex justify-content-between">
+                <div class="package">
+                    <h3> الباقة المجانية </h3>
+                    <div class="package-body">
+                        <ul class="list-unstyled">
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> عدد لامحدود من المنتجات </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span>عدد لا محدود من خيارات المنتجات</span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span>عدد لامحدود من الأقسام </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span>عدد لامحدود من الصفحات التعريفية</span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> جميع امكانيات ال CEO </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> جميع طرق الدفع</span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span>جميع طرق الشحن </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> عدد لا محدود من العملاء
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> عدد لا محدود من الطلبات
+                                </span>
+                            </li>
+
+                        </ul>
+                        <div class="package-price">
+                            <button type="button"> تحديد الباقه </button>
+                            <span> مجـانـاً <span>
+                        </div>
+                    </div>
+                </div>
+                <div class="package active">
+                    <h3>الباقة الاقتصادية</h3>
+                    <div class="package-body">
+                        <ul class="list-unstyled">
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> مميزات الباقة المجانية </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> عدد لامحدود العروض والتخفيضات </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> عدد لامحدود من المسوقين</span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> الاستعلام اليومي عن سوق منتج واحد </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> امكانية تعديل تصميم الصفحة بcss </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> ايمول سلايدر </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> ايمول كارسولز </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> جميع خدمات جوجل والفيس بوك </span>
+                            </li>
+
+                        </ul>
+                        <div class="package-price">
+                            <button type="button"> تحديد الباقه </button>
+                            <span> <span>100</span> ر.س </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="package">
+                    <h3>الباقة التسويقية </h3>
+                    <div class="package-body">
+                        <ul class="list-unstyled">
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> مميزات الباقة الاقتصادية </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> عدد لامحدود من المخازن </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> امكانية جرد المنتجات حسب المنتج </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> امكانية عمل تنبيه بالمنتجات المنتهية </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> Google Analytics 4G With Events Handle </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> الدخول بالنيابة عن العميل
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> التحكم في سرعة وضغط المتجر
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> امكانية تخصيص ارقام الطلبات
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span>التحكم في اعدادات العملاء العامة
+
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> الاستعلام اليومي عن سوق منتجين
+
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span>برنامج الولاء
+
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> القسائم المالية وبطائق الهدايا
+
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> مدونة خاصة
+
+
+                                </span>
+                            </li>
+
+                        </ul>
+                        <div class="package-price">
+                            <button type="button"> تحديد الباقه </button>
+                            <span> <span>200</span> ر.س </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="package">
+                    <h3> الباقة التجارية
+                    </h3>
+                    <div class="package-body">
+                        <ul class="list-unstyled">
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> مميزات الباقات التسويقية
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span>عدد لامحدود من خيارات وسمات المحاسبة
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span>ميزة الفواتير الشهرية للعملاء</span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> التحكم في سرعة وضغط المتجر
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> التحكم في صور المنتجات والمتجر
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span>التحكم في حقول بيانات العملاء والعناوين
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span>عرض جدول اهتمام الزوار بالمنتجات
+                                </span>
+                            </li>
+                            <li>
+                                <img src="images/feature_check.svg" alt="" />
+                                <span> متجر إضافي مجانا
+                                </span>
+                            </li>
+
+                        </ul>
+                        <div class="package-price">
+                            <button type="button"> تحديد الباقه </button>
+                            <span> <span>400</span> ر.س </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="customers">
+        <h2>
+            <img src="images/testi.svg" alt="testi" />
+            <span> ماذا قالو عن E-MOLE ؟ </span>
+        </h2>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="customer">
+                    <img class="quote" src="images/quote.svg" alt="quote" />
+                    <div class="wrapper d-flex align-items-center">
+                        <img src="images/cust_1.svg" alt="profile picture" />
+                        <div class="info">
+                            <h4> احمد توفيق سعد </h4>
+                            <span> متجر السعادة </span>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        لقد سهلت Emole علينا إدارة متاجرنا المتعددة بفضل لوحة التحكم المركزية. الآن يمكننا تتبع كل شيء
+                        بسهولة.تجربة رائعة بكل المقاييس، وساعدتنا على تحسين كفاءة أعمالنا بشكل كبير
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="customer">
+                    <img class="quote" src="images/quote.svg" alt="quote" />
+                    <div class="wrapper d-flex align-items-center">
+                        <img src="images/cust_2.svg" alt="profile picture" />
+                        <div class="info">
+                            <h4> عبدالله احمد جاد </h4>
+                            <span>متجر Codeora</span>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        التسويق بالذكاء الاصطناعي من Emole زاد من مبيعاتنا بشكل ملحوظ. التوصيات المخصصة للعملاء كانت
+                        خطوة ذكية جدا. نحن راضون جدًا عن النتائج!
+                        شكرا ايمول
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="customer">
+                    <img class="quote" src="images/quote.svg" alt="quote" />
+                    <div class="wrapper d-flex align-items-center">
+                        <img src="images/cust_3.svg" alt="profile picture" />
+                        <div class="info">
+                            <h4>مصطفي زين العابدين </h4>
+                            <span> متجر المصطفي</span>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        فريق الدعم في Emole دائمًا جاهز للمساعدة. واجهت مشكلة في إعداد الخصومات وتم حلها بسرعة
+                        وباحترافية. خدمة عملاء ممتازة ومتفانية، تجعلنا نشعر بالثقة في استخدام منصة Emole لإدارة متاجرنا.
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="customer">
+                    <img class="quote" src="images/quote.svg" alt="quote" />
+                    <div class="wrapper d-flex align-items-center">
+                        <img src="images/cust_1.svg" alt="profile picture" />
+                        <div class="info">
+                            <h4> احمد توفيق سعد </h4>
+                            <span> متجر السعادة </span>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        لقد سهلت Emole علينا إدارة متاجرنا المتعددة بفضل لوحة التحكم المركزية. الآن يمكننا تتبع كل شيء
+                        بسهولة.تجربة رائعة بكل المقاييس، وساعدتنا على تحسين كفاءة أعمالنا بشكل كبير
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="customer">
+                    <img class="quote" src="images/quote.svg" alt="quote" />
+                    <div class="wrapper d-flex align-items-center">
+                        <img src="images/cust_2.svg" alt="profile picture" />
+                        <div class="info">
+                            <h4> عبدالله احمد جاد </h4>
+                            <span>متجر Codeora</span>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        التسويق بالذكاء الاصطناعي من Emole زاد من مبيعاتنا بشكل ملحوظ. التوصيات المخصصة للعملاء كانت
+                        خطوة ذكية جدا. نحن راضون جدًا عن النتائج!
+                        شكرا ايمول
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="customer">
+                    <img class="quote" src="images/quote.svg" alt="quote" />
+                    <div class="wrapper d-flex align-items-center">
+                        <img src="images/cust_3.svg" alt="profile picture" />
+                        <div class="info">
+                            <h4>مصطفي زين العابدين </h4>
+                            <span> متجر المصطفي</span>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        فريق الدعم في Emole دائمًا جاهز للمساعدة. واجهت مشكلة في إعداد الخصومات وتم حلها بسرعة
+                        وباحترافية. خدمة عملاء ممتازة ومتفانية، تجعلنا نشعر بالثقة في استخدام منصة Emole لإدارة متاجرنا.
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="customer">
+                    <img class="quote" src="images/quote.svg" alt="quote" />
+                    <div class="wrapper d-flex align-items-center">
+                        <img src="images/cust_1.svg" alt="profile picture" />
+                        <div class="info">
+                            <h4> احمد توفيق سعد </h4>
+                            <span> متجر السعادة </span>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        لقد سهلت Emole علينا إدارة متاجرنا المتعددة بفضل لوحة التحكم المركزية. الآن يمكننا تتبع كل شيء
+                        بسهولة.تجربة رائعة بكل المقاييس، وساعدتنا على تحسين كفاءة أعمالنا بشكل كبير
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="customer">
+                    <img class="quote" src="images/quote.svg" alt="quote" />
+                    <div class="wrapper d-flex align-items-center">
+                        <img src="images/cust_2.svg" alt="profile picture" />
+                        <div class="info">
+                            <h4> عبدالله احمد جاد </h4>
+                            <span>متجر Codeora</span>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        التسويق بالذكاء الاصطناعي من Emole زاد من مبيعاتنا بشكل ملحوظ. التوصيات المخصصة للعملاء كانت
+                        خطوة ذكية جدا. نحن راضون جدًا عن النتائج!
+                        شكرا ايمول
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="customer">
+                    <img class="quote" src="images/quote.svg" alt="quote" />
+                    <div class="wrapper d-flex align-items-center">
+                        <img src="images/cust_3.svg" alt="profile picture" />
+                        <div class="info">
+                            <h4>مصطفي زين العابدين </h4>
+                            <span> متجر المصطفي</span>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        فريق الدعم في Emole دائمًا جاهز للمساعدة. واجهت مشكلة في إعداد الخصومات وتم حلها بسرعة
+                        وباحترافية. خدمة عملاء ممتازة ومتفانية، تجعلنا نشعر بالثقة في استخدام منصة Emole لإدارة متاجرنا.
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="customer">
+                    <img class="quote" src="images/quote.svg" alt="quote" />
+                    <div class="wrapper d-flex align-items-center">
+                        <img src="images/cust_1.svg" alt="profile picture" />
+                        <div class="info">
+                            <h4> احمد توفيق سعد </h4>
+                            <span> متجر السعادة </span>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        لقد سهلت Emole علينا إدارة متاجرنا المتعددة بفضل لوحة التحكم المركزية. الآن يمكننا تتبع كل شيء
+                        بسهولة.تجربة رائعة بكل المقاييس، وساعدتنا على تحسين كفاءة أعمالنا بشكل كبير
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="customer">
+                    <img class="quote" src="images/quote.svg" alt="quote" />
+                    <div class="wrapper d-flex align-items-center">
+                        <img src="images/cust_2.svg" alt="profile picture" />
+                        <div class="info">
+                            <h4> عبدالله احمد جاد </h4>
+                            <span>متجر Codeora</span>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        التسويق بالذكاء الاصطناعي من Emole زاد من مبيعاتنا بشكل ملحوظ. التوصيات المخصصة للعملاء كانت
+                        خطوة ذكية جدا. نحن راضون جدًا عن النتائج!
+                        شكرا ايمول
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="customer">
+                    <img class="quote" src="images/quote.svg" alt="quote" />
+                    <div class="wrapper d-flex align-items-center">
+                        <img src="images/cust_3.svg" alt="profile picture" />
+                        <div class="info">
+                            <h4>مصطفي زين العابدين </h4>
+                            <span> متجر المصطفي</span>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        فريق الدعم في Emole دائمًا جاهز للمساعدة. واجهت مشكلة في إعداد الخصومات وتم حلها بسرعة
+                        وباحترافية. خدمة عملاء ممتازة ومتفانية، تجعلنا نشعر بالثقة في استخدام منصة Emole لإدارة متاجرنا.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <footer>
         <div class="upper_footer">
             <div class="content d-flex justify-content-between">
@@ -891,6 +1349,95 @@
         </div>
     </div>
 
+
+    <!-- OTP panel -->
+
+    <div class="modal OTPModal fade" id="OTPModal" tabindex="-1" aria-labelledby="OTPModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="images/close.svg" alt="close" />
+                    </button>
+                    <h2>رمـــز التحقق</h2>
+                </div>
+                <div class="modal-body">
+                    <p>تم إرسال رمز التحقق المكون من 4 أرقام إلى رقم الجوال 96650XXXXXXX+</p>
+                    <div class="otp-container">
+                        <input type="text" id="otp1" maxlength="1" class="otp-input" />
+                        <input type="text" id="otp2" maxlength="1" class="otp-input">
+                        <input type="text" id="otp3" maxlength="1" class="otp-input">
+                        <input type="text" id="otp4" maxlength="1" class="otp-input">
+                    </div>
+                    <button id="submitOtp" class="submit-button">المتابعة للدخول</button>
+                </div>
+                <div class="modal-footer d-flex align-items-center justify-content-between">
+                    <div class="resend">
+                        <span id="timer">00:37</span>
+                        <button id="resendOtp" class="footer-button">اعادة ارسال رمز التحقق</button>
+                    </div>
+                    <button id="changePhone" class="footer-button">تغيير رقم الهاتف</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- signup modal -->
+    <div class="modal OTPModal signupmodal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="images/close.svg" alt="close" />
+                    </button>
+                    <h2>تسجيل الدخول </h2>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="phoneNumber" class="form-label"> رقــــــم الجــــــــــــوال </label>
+                        <div class="input-group">
+                            <input type="tel" class="form-control" id="phoneNumber" aria-label="Phone number">
+                            <select class="form-select" id="countryCode" aria-label="Country code">
+                                <option value="+971">+971</option>
+                                <option value="+966">+966</option>
+                                <option value="+962">+962</option>
+                                <option value="+964">+964 </option>
+                                <option value="+965">+965</option>
+                                <option value="+973">+973</option>
+                                <option value="+974">+974</option>
+                                <option value="+968">+968</option>
+                                <option value="+212">+212 </option>
+                                <option value="+216">+216</option>
+                                <option value="+218">+218 </option>
+                                <option value="+20">+20 </option>
+                                <option value="+961">+961 </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="terms d-flex align-items-center">
+                        <input type="radio" />
+                        <span> أوفق علي
+
+                            <a href="#"> الشروط والأحكام </a>
+
+                        </span>
+                    </div>
+                    <button id="submitOtp" class="submit-button"> تسجيــــل الدخول </button>
+                </div>
+                <div class="modal-footer d-flex align-items-center justify-content-between">
+                    ليس لديك حساب 
+                    ؟  
+                <span>  انشاء حساب جديد </span>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
